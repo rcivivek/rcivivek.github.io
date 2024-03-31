@@ -3,6 +3,8 @@ body{
 }
 header{
     /* background-color: grey; */
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 0.3em 1em;
 }
 header ul{
@@ -18,7 +20,7 @@ header a{
 section{
     display: flex;
     margin: 0 auto;
-    width: 1200px;
+    max-width: 1200px;
     gap: 20px;
 }
 section aside{
@@ -27,13 +29,16 @@ section aside{
     padding: 20px;
 }
 section aside img{
-    width: 280px;
+    width: 260px;
     border-radius: 50%;
     /* margin: 40px; */
 }
 section aside h1{
     font-size: 2em;
     margin-bottom: 0;
+}
+section aside h3 {
+    margin-top: 6px;
 }
 section aside ul{
     list-style: none;
@@ -45,6 +50,7 @@ section aside li {
 }
 aside li a{
     text-decoration: none;
+    color: black;
 }
 aside li span {
     margin-left: 10px;
