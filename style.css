@@ -6,7 +6,10 @@ header{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0.3em 1em;
-    /* display: fixed; */
+    position: fixed;
+    background-color: white;
+    right:0;
+    left: 0;
 }
 header ul{
    display: flex;
@@ -28,6 +31,10 @@ section aside{
     width: 360px;
     text-align: center;
     padding: 20px;
+    position: fixed;
+    background-color: white;
+    top: 60px;
+    bottom: 0;
 }
 section aside img{
     width: 260px;
@@ -71,5 +78,10 @@ aside li span {
 
 section main{
     flex: 1;
+    margin-left: 400px;
+}
+
+.content{
+   padding-top: 60px;
 }
 
