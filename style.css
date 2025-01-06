@@ -28,6 +28,7 @@ header ul {
     list-style: none; 
     gap: 2em; 
     justify-content: flex-end; 
+    margin-block: 0.7em;
 } 
  
 header a { 
@@ -49,7 +50,7 @@ aside {
     padding-inline: 20px; 
     position: fixed; 
     background-color: white; 
-    top: 60px; 
+    top: 2.5em;
     bottom: 0; 
  
     img { 
